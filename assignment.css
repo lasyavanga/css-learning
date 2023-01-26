@@ -1,0 +1,22 @@
+div {
+  padding: 15px 25px;
+  border: 20px ridge rgb(121, 112, 251);
+  background-color: rgba(40, 198, 255, 0.854);
+  margin: 15px 7px;
+  height: 300px;
+  width: 25%;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#first {
+  display: none;
+}
+
+div:last-of-type:hover   {
+  border: 20px ridge rgba(40, 198, 255, 0.854);
+  cursor: pointer;
+  background-color: rgb(121, 112, 251);
+  color: white;
+}
